@@ -1,0 +1,158 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+@font-face {
+	font-family: 'cirilic_old';
+	src: url(fonts/cirilic_old.ttf);
+}
+@font-face {
+	font-family: 'nfsu';
+	src: url(fonts/NFSU.otf);
+}
+body
+{
+	background-size: 100% 100%;
+	background-image: url('images/les.jpeg');
+}
+header
+{
+	background-color: rgba(0,0,200,0.75);
+	margin-top: 25px;
+	width: 100vw;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@media(max-width: 1200px)
+{
+	header
+	{
+		max-height:50px;
+	}
+}
+@media(max-width: 992px)
+{
+	header
+	{
+		max-height:40px;
+	}
+}
+@media(max-width: 767px)
+{
+	header
+	{
+		max-height:none;
+	}
+}
+a
+{
+	text-decoration: none;
+}
+.sub_header_left
+{
+	font-family: cirilic_old;
+	font-weight: 400;
+	margin-left:100px;
+	color: white;
+	font-size: 25pt;
+}
+@media(max-width: 1200px)
+{
+	.sub_header_left
+	{
+		font-size: 20pt;
+	}
+}
+@media(max-width: 992px)
+{
+	.sub_header_left
+	{
+		font-size: 20pt;
+	}
+}
+@media(max-width: 767px)
+{
+	.sub_header_left
+	{
+		font-size: 20pt;
+		margin-left:10px;
+	}
+}
+.sub_header_right
+{
+	font-family: nfsu;
+	font-weight: 400;
+	margin-right:100px;
+	font-size: 25pt;
+}
+@media(max-width: 1200px)
+{
+	.sub_header_right
+	{
+		font-size: 20pt;
+	}
+}
+@media(max-width: 992px)
+{
+	.sub_header_right
+	{
+		font-size: 20pt;
+	}
+}
+@media(max-width: 767px)
+{
+	.sub_header_right
+	{
+		font-size: 20pt;
+		margin-right:10px;
+	}
+}
+.elements_header
+{
+	color: white;
+	margin-inline:15px;
+	display: inline;
+}
+.elements_header:hover
+{
+	color: yellow;
+}
+.elements_header:active
+{
+	color: lightgreen;
+}
+.container
+{
+	width: 75vw;
+	height: 75vh;
+	background-color:rgba(0,100,200,0.5);
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+}
+@media (max-width: 1000px)
+{
+	.container
+	{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: center;
+	}
+}
+.sub_container
+{
+	margin: 5%;
+	width:25%;
+	height: 25%;
+	background-image: url('images/dog.jpg');
+	background-size: 100% 100%;
+}
