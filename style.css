@@ -127,7 +127,7 @@ a
 .container
 {
 	width: 75vw;
-	height: 75vh;
+	height: 85vh;
 	background-color:rgba(0,100,200,0.5);
 	margin: 0 auto;
 	margin-top: 50px;
@@ -151,7 +151,7 @@ a
 }
 .sub_container
 {
-	margin: 45px;
+	margin: 50px;
 	width:225px;
 	height: 225px;
 	background-image: url('images/dog.jpg');
