@@ -152,8 +152,8 @@ a
 .sub_container
 {
 	margin: 40px;
-	width:200px;
-	height: 200px;
+	width:250px;
+	height: 250px;
 	background-image: url('images/dog.jpg');
 	background-size: 100% 100%;
 }
