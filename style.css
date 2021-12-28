@@ -70,14 +70,14 @@ a
 {
 	.sub_header_left
 	{
-		font-size: 20pt;
+		font-size: 30pt;
 	}
 }
 @media(max-width: 767px)
 {
 	.sub_header_left
 	{
-		font-size: 20pt;
+		font-size: 30pt;
 		margin-left:10px;
 	}
 }
@@ -99,14 +99,14 @@ a
 {
 	.sub_header_right
 	{
-		font-size: 20pt;
+		font-size: 30pt;
 	}
 }
 @media(max-width: 767px)
 {
 	.sub_header_right
 	{
-		font-size: 20pt;
+		font-size: 30pt;
 		margin-right:10px;
 	}
 }
@@ -150,9 +150,25 @@ a
 }
 .sub_container
 {
-	margin: 5%;
-	width:25%;
-	height: 25%;
+	margin: 40px;
+	width:250px;
+	height: 250px;
 	background-image: url('images/dog.jpg');
 	background-size: 100% 100%;
+}
+@media(max-width: 992px)
+{
+	.sub_container
+	{
+	width:100px;
+	height: 150px;
+	}
+}
+@media(max-width: 767px)
+{
+	.sub_containert
+	{
+	width:100px;
+	height: 150px
+	}
 }
