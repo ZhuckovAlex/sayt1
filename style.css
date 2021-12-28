@@ -70,14 +70,14 @@ a
 {
 	.sub_header_left
 	{
-		font-size: 30pt;
+		font-size: 25pt;
 	}
 }
 @media(max-width: 767px)
 {
 	.sub_header_left
 	{
-		font-size: 30pt;
+		font-size: 25pt;
 		margin-left:10px;
 	}
 }
@@ -99,14 +99,14 @@ a
 {
 	.sub_header_right
 	{
-		font-size: 30pt;
+		font-size: 25pt;
 	}
 }
 @media(max-width: 767px)
 {
 	.sub_header_right
 	{
-		font-size: 30pt;
+		font-size: 25pt;
 		margin-right:10px;
 	}
 }
